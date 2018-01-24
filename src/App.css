@@ -1,0 +1,98 @@
+body {
+  background-color: #ee0000;
+  color: #333;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#bg-img {
+  background-image: url(https://previews.123rf.com/images/dapoomll/dapoomll1307/dapoomll130700007/21260096-seamless-wallpaper-with-fast-food.jpg);
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+  opacity: .1;
+  position: absolute;
+  z-index: 1;
+}
+
+#root {
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  color: #111;
+}
+
+input[type=text] {
+  background: #efefef;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  padding: 8px 10px;
+  text-align: center;
+  width: 240px;
+}
+
+#logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: 'Gloria Hallelujah', cursive;
+  padding-top: 40px;
+  text-shadow: 0px 0px 5px rgba(0,0,0,.3);
+}
+
+#logo span {
+  color: #440000;
+}
+
+#footer {
+  color: #440000;
+  font-size: 12px;
+  padding: 25px 0 35px;
+}
+
+#container {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,.3);
+  margin: 15px auto;
+  padding: 15px 20px 40px;
+}
+
+#item-name {
+  background: #eee;
+  border-radius: 8px;
+  margin: 35px 0;
+  padding: 8px 15px;
+}
+
+.highlight {
+  background: none !important;
+  border: 5px dashed red;
+  font-weight: bold;
+  font-size: 24px;
+  font-size: 24px;
+  animation: mymove .3s infinite;
+
+}
+
+button {
+  background: #ee0000;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 25px;
+}
+
+button:hover {
+  background: #ff0000
+}
+
+@keyframes mymove {
+    from {border-color: yellow;}
+    to {border-color: red;}
+}
